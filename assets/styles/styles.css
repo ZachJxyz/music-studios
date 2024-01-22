@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: tan;
+    align-content: center;
+}
+
+nav {
+    background-color:blanchedalmond;
+    margin: 1rem;
+    padding: 1rem;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+
+#logo {
+    max-width: 2.5rem;
+}
+
+.nav-items {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    flex: 1;
+    background-color: aquamarine;
+}
+
+footer {
+    background-color: chartreuse;
+    display: flex;
+    justify-content: center;
+}
